@@ -1,0 +1,38 @@
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 200px;
+background-color: rgb(215,222,255)
+}
+li a {
+     display:block;
+     color: rgb(43,243,23);
+     text-decoration: none;
+}
+li a:active {
+     background-color: rgb(158,7,255);
+     color: black;
+}
+li a:hover:not(.active) {
+     background-color: rgb(189,251,194);
+     color: black;
+}
+div p {
+    color: rgb(158,7,255);
+    width: 50%;
+    text-align: center;
+    padding-left: 25%;
+    }
+body {
+    background-color: rgb(216,253,209);
+}
+h1 {
+  text-align: center;
+  font-size: large;
+}
+span:hover h1 {color: rgb(29,188,255)
+}
+<img src="http://www.messiah.edu/Oakes/fungi_on_wood/teeth%20and%20spine/images/Hericium%20americanum%20McSweeny.jpg"
+alt="mushroom"
+style="width:350px;height:263;">
